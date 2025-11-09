@@ -29,7 +29,7 @@ The system provides:
 ---
 
 ## Project Stucture (After I finished the stories)
-
+<pre>
 Solution/
 └── TheatreCMS3/
     ├── App_Data
@@ -81,7 +81,7 @@ Solution/
     ├── packages.config
     ├── Startup.cs
     └── Web.config
-   
+</pre>   
 ---
 
 ##  Project Rules
