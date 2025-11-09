@@ -1,0 +1,135 @@
+﻿/* ▼ This ▼ is for you to easily reference the colors on the Site.css page */
+/* Do not uncomment these color variables */
+
+/* CSS color variables */
+/*:root {*/ /* Color palette for css */
+/*--main-color: #BD1A11;*/ /* Red */
+/*--main-color--light: #F04D44;*/ /* Red, a shade lighter */
+/*--secondary-color: #D6972A;*/ /* Yellow gold */
+/*--light-color: #FFFBFB;*/ /* White */
+/*--dark-color: #000000;*/ /* Black */
+/*--secondary-color--dark: #9D7C39;*/ /* Dark Gold */
+/*}*/
+
+/* =========================================
+   RENTAL STYLING
+   ========================================= */
+
+/* ---------------------------
+   CREATE RENT CARD STYLING
+   --------------------------- */
+.rent-card {
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 15px;
+}
+
+/* Form controls */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Badge styling */
+.badge-large {
+    font-size: 1.25rem;
+}
+
+/* ---------------------------
+   INDEX PAGE STYLING
+   --------------------------- */
+
+/* ----- Buttons ----- */
+
+/* Three-dot dropdown button */
+.threedot-btn {
+    border: none !important; /* Remove the border */
+    box-shadow: none !important; /* Remove focus shadow */
+    outline: none !important; /* Remove default focus outline */
+    padding: 0; /* Make button tighter */
+    background: transparent; /* Transparent background */
+}
+
+    .threedot-btn:focus,
+    .threedot-btn:active {
+        box-shadow: none !important;
+        outline: none !important;
+    }
+
+/* Dropdown hover show behavior */
+.dropdown.hover-show {
+    display: block;
+}
+
+    .dropdown.hover-show .dropdown-menu.hover-show {
+        display: block;
+    }
+
+/* ----- Text Styling ----- */
+
+/* Damage text - prevent wrapping and truncate with ellipsis */
+.damage-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis when text overflows */
+    display: inline-block; /* Required for ellipsis */
+    max-width: 500px; /* Adjust as needed */
+    vertical-align: middle;
+}
+
+/* Table header text styling */
+.th-text {
+    font-weight: normal;
+    color: gray;
+    width: auto;
+    min-width: 150px;
+}
+
+/* Ellipses clickable text */
+.ellipses {
+    cursor: pointer; /* Show pointer on hover */
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none; /* Remove underline */
+}
+
+    .ellipses.text-muted {
+        color: #6c757d; /* Bootstrap muted color */
+    }
+
+/* ----- Badges ----- */
+.rental-badge {
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 25px;
+    padding: 5px;
+    font-weight: bold;
+    justify-items: center;
+}
+
+/* ----- Table Styling ----- */
+.index-table {
+    border-radius: 20px;
+    outline: none;
+    max-width:700px;
+}
+
+/* Custom table borders */
+.custom-bordered-tbody {
+    border: none; /* Remove default table border */
+}
+
+    /* Remove thead borders */
+    .custom-bordered-tbody thead th {
+        border: none;
+    }
+
+    /* Add borders to tbody cells */
+    .custom-bordered-tbody tbody td {
+        border: 1px solid #dee2e6; /* Bootstrap default border color */
+    }
+
+    /* Remove bottom border on last row */
+    .custom-bordered-tbody tbody tr:last-child td {
+        border: none;
+    }
